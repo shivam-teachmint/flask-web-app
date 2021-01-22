@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="114" viewBox="0 0 130 114">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1da1f2;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        opacity: 0.77;
+      }
+
+      .cls-2 {
+        fill: #fce3a2;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 7px;
+      }
+
+      .cls-3 {
+        fill: #facdb2;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Cities" transform="translate(0 7)">
+    <path id="Rectangle_19617" data-name="Rectangle 19617" class="cls-1" d="M22.929,0H44.071A22.929,22.929,0,0,1,67,22.929V46.24A1.76,1.76,0,0,1,65.24,48H1.758A1.758,1.758,0,0,1,0,46.242V22.929A22.929,22.929,0,0,1,22.929,0Z" transform="translate(0 52)"/>
+    <g id="Rectangle_19618" data-name="Rectangle 19618" class="cls-2" transform="translate(33)">
+      <path class="cls-4" d="M10,0H57A10,10,0,0,1,67,10V98.5a1.5,1.5,0,0,1-1.5,1.5H1.5A1.5,1.5,0,0,1,0,98.5V10A10,10,0,0,1,10,0Z"/>
+      <path class="cls-5" d="M10-3.5H57A13.5,13.5,0,0,1,70.5,10V98.5a5,5,0,0,1-5,5H1.5a5,5,0,0,1-5-5V10A13.5,13.5,0,0,1,10-3.5Z"/>
+    </g>
+    <g id="Rectangle_19619" data-name="Rectangle 19619" class="cls-3" transform="translate(56 36)">
+      <path class="cls-4" d="M12.557,0H52.064A14.936,14.936,0,0,1,67,14.936V64a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V12.557A12.557,12.557,0,0,1,12.557,0Z"/>
+      <path class="cls-5" d="M12.557-3.5H52.064A18.436,18.436,0,0,1,70.5,14.936V64A3.5,3.5,0,0,1,67,67.5H0A3.5,3.5,0,0,1-3.5,64V12.557A16.057,16.057,0,0,1,12.557-3.5Z"/>
+    </g>
+  </g>
+</svg>

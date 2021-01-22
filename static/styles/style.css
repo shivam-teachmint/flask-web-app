@@ -1,0 +1,479 @@
+@font-face {
+    font-family: poppinsRegular;
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: poppinsSemiBold;
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "poppinsRegular";
+}
+
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.teachmint-primary-btn {
+    color: #fff;
+    background-color: #1da1f2;
+    border-radius: 4px;
+    margin-left: 24px;
+    padding: 5px 40px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hide-in-mobile {
+    display: none !important;
+}
+
+.show-in-mobile {
+    display: flex !important;
+}
+.main-para-1 {
+    font-size: 20px;
+}
+
+.main-content {
+    margin-top: 84px;
+}
+
+.main-heading-large {
+    font-size: 28px;
+    line-height: 36px;
+    color: #323232;
+    font-family: "poppinsSemiBold";
+}
+
+.main-heading-small {
+    font-size: 24px;
+    line-height: 32px;
+    color: #323232;
+    font-family: "poppinsSemiBold";
+}
+
+.main-para-large {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c2c2c;
+}
+
+.main-para-small {
+    font-size: 14px;
+    line-height: 22px;
+    color: #2c2c2c;
+}
+
+.teachmint-color {
+    color: #1da1f2 !important;
+}
+
+/* index page section one */
+.landing-sec-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto 20px auto;
+    width: 80%;
+}
+
+.landing-sec-one .text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 48px;
+}
+
+.landing-sec-one .text-container .play-store-img-btn {
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.landing-sec-one .text-container .play-store-img-btn img {
+    width: 172px;
+}
+
+.landing-sec-one .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.landing-sec-one .image-container img {
+    width: 100%;
+    height: 66.66%;
+}
+
+/* index page section 2 */
+.main-india-one-con {
+    width: 80%;
+    margin: 10px auto 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-india-one-con .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-india-one-con .feature-container .feature-channel-card {
+    margin: 10px 5px;
+    box-shadow: rgba(221, 230, 237, 0.4) 0px 8px 16px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90%;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+.main-india-one-con .feature-container .feature-channel-card img {
+    width: 35%;
+}
+
+.main-india-one-con .feature-container .feature-channel-card .side2 {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main-india-one-con .feature-container .feature-channel-card .side2 .heading,
+.sub-heading {
+    width: 100%;
+}
+.main-india-one-con .feature-container .feature-channel-card .side2 .heading {
+    font-size: 25px;
+}
+
+/* featured section  */
+.main-featured-con {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-featured-con .feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-featured-con .feature-container .feature-channel-card {
+    margin: 10px 5px;
+    box-shadow: rgba(221, 230, 237, 0.4) 0px 8px 16px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 43%;
+    height: auto;
+    padding: 25px 17px;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+.main-featured-con .feature-container .feature-channel-card img {
+    width: 100%;
+}
+
+.main-featured-con .feature-container .feature-channel-card:hover {
+    transform: scale(1.1);
+}
+
+/* Join Fb commmunity section */
+.landing-fb-community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 80%;
+}
+.landing-fb-community .text-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.landing-fb-community .text-container a {
+    width: 100%;
+    text-decoration: none;
+    margin: auto;
+}
+.landing-fb-community .text-container a .btn {
+    color: #1da1f2;
+    border: 2px solid #1da1f2;
+    border-radius: 4px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 16px auto;
+}
+.landing-fb-community .text-container a .btn img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.landing-fb-community .text-container a .btn-play {
+    width: 100%;
+    margin: 16px auto;
+}
+
+.landing-fb-community .image-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto;
+}
+.landing-fb-community .image-container img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    .hide-in-mobile {
+        display: flex !important;
+    }
+
+    .show-in-mobile {
+        display: none !important;
+    }
+
+    .teachmint-primary-btn {
+        margin-left: 24px;
+        padding: 5px 40px;
+        font-size: 15px;
+    }
+
+    .main-content {
+        margin-top: 84px;
+    }
+
+    .main-heading-large {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .main-heading-small {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .main-para-large {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .main-para-small {
+        font-size: 1.5em;
+        line-height: 1em;
+        color: #2c2c2c;
+    }
+
+    /* index page section one */
+    .landing-sec-one {
+        margin: 70px auto;
+    }
+    .landing-sec-one .text-container {
+        width: 50%;
+    }
+    .landing-sec-one .text-container .play-store-img-btn {
+        margin-top: 30px;
+    }
+
+    .landing-sec-one .text-container .play-store-img-btn img {
+        width: 182px;
+    }
+
+    .landing-sec-one .image-container {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .landing-sec-one .image-container img {
+        width: 90%;
+    }
+
+    /* index page section 2 */
+    .main-india-one-con {
+        margin: 70px auto;
+    }
+    .main-india-one-con .feature-container .feature-channel-card {
+        width: 45%;
+    }
+
+    .main-india-one-con
+        .feature-container
+        .feature-channel-card
+        .side2
+        .heading {
+        font-size: 25px;
+    }
+
+    /* featured section  */
+    .main-featured-con {
+        margin: 70px auto;
+    }
+    .main-featured-con .feature-container .feature-channel-card {
+        margin: 15px 10px;
+        border-radius: 8px;
+        width: 25%;
+        padding: 25px 17px;
+    }
+
+    /* Join Fb commmunity section */
+    .landing-fb-community {
+        margin: 70px auto;
+        width: 80%;
+    }
+
+    .landing-fb-community .text-container {
+        width: 35%;
+    }
+
+    .landing-fb-community .text-container a {
+        width: 100%;
+        text-decoration: none;
+        margin: 20px auto;
+    }
+
+    .landing-fb-community .text-container a .btn-play {
+        width: 100%;
+    }
+
+    .landing-fb-community .image-container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .landing-fb-community .image-container img {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 990px) {
+    .teachmint-primary-btn {
+        margin-left: 24px;
+        padding: 5px 40px;
+        font-size: 18px;
+    }
+
+    .landing-sec-one {
+        margin: auto;
+        padding: 100px 0 70px 0;
+        max-width: 1144px;
+    }
+
+    .main-content {
+        margin-top: 84px;
+    }
+
+    .main-heading-large {
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .main-heading-small {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .main-para-large {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .main-para-small {
+        font-size: 20px;
+        line-height: 19px;
+        color: #2c2c2c;
+    }
+
+    /* index page section one */
+    .landing-sec-one .text-container {
+        width: 50%;
+    }
+    .landing-sec-one .text-container .play-store-img-btn {
+        margin-top: 70px;
+    }
+    .landing-sec-one .text-container .play-store-img-btn img {
+        width: 170px;
+    }
+    .landing-sec-one .image-container {
+        width: 50%;
+    }
+    .landing-sec-one .image-container img {
+        width: 100%;
+    }
+
+    /* index page section 2 */
+    .main-india-one-con {
+        margin: 50px auto 70px auto;
+        max-width: 1144px;
+    }
+    .main-india-one-con .feature-container .feature-channel-card {
+        width: 30%;
+    }
+
+    .main-india-one-con .feature-container .feature-channel-card img {
+        width: 30%;
+    }
+
+    .main-india-one-con
+        .feature-container
+        .feature-channel-card
+        .side2
+        .heading {
+        font-size: 28px;
+    }
+
+    /* featured section  */
+    .main-featured-con {
+        margin: 0px auto 70px auto;
+        max-width: 1144px;
+    }
+    .main-featured-con .feature-container .feature-channel-card {
+        margin: 15px 10px;
+        border-radius: 10px;
+        width: 17%;
+        padding: 25px 17px;
+    }
+    .main-featured-con .feature-container .feature-channel-card img {
+        width: 90%;
+    }
+
+    /* Join Fb commmunity section */
+    .landing-fb-community {
+        margin: 0px auto;
+        max-width: 1144px;
+    }
+    .landing-fb-community .text-container {
+        width: 35%;
+    }
+    .landing-fb-community .text-container a {
+        width: 100%;
+        text-decoration: none;
+        margin: 20px auto;
+    }
+
+    .landing-fb-community .image-container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .landing-fb-community .image-container img {
+        width: 80%;
+    }
+}

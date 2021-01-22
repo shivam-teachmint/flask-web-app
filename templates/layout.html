@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Teachmint - Best Online Teaching app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static',
+        filename='styles/style.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static',
+        filename='styles/navbar.css') }}"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="{{ url_for('static',
+        filename='styles/footer.css') }}"
+        />
+    </head>
+    <body>
+        <nav>
+            <div class="main-navbar">
+                <div class="main-navbar-inner">
+                    <div class="logo-container">
+                        <a href="/">
+                            <img
+                                src="{{ url_for('static',
+                            filename='images/teachmint-logo.png') }}"
+                            />
+                        </a>
+                    </div>
+                    <div class="menu-container-laptop hide-in-mobile">
+                        <div class="menu-item">
+                            <a href="/"> Home</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="https://blog.teachmint.com"> Blogs</a>
+                        </div>
+                        <div class="menu-item">
+                            <a href="/about-us"> About Us</a>
+                        </div>
+                        <div class="menu-item">
+                            <button class="teachmint-primary-btn">Login</button>
+                        </div>
+                    </div>
+
+                    <div
+                        id="menu-burger"
+                        class="menu-icon-container-mobile show-in-mobile"
+                    >
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/menu-icon.png') }}"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div id="menu-container-mobile" class="menu-container-mobile">
+                <div class="menu-item">
+                    <a href="/"> Home</a>
+                </div>
+                <div class="menu-item">
+                    <a href="https://blog.teachmint.com"> Blogs</a>
+                </div>
+                <div class="menu-item">
+                    <a href="/about-us"> About Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-content">
+            <div class="landing-sec-one">
+                <div class="text-container">
+                    <div class="image-container show-in-mobile">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/index-page-sec-one.jpg') }}"
+                            alt="main"
+                        />
+                    </div>
+
+                    <h1 class="main-heading-large">
+                        Welcome to <br />
+                        Your New Classroom
+                    </h1>
+                    <div class="main-para-large">
+                        Digitise your classrooms and start teaching your
+                        students in just 2 minutes.
+                    </div>
+
+                    <div class="play-store-img-btn">
+                        <a
+                            target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.teachmint.teachmint&referrer=utm_source%3Dwebsite%26utm_medium%3Dorganic"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="{{ url_for('static',
+                            filename='images/google-play-icon.svg') }}"
+                                alt="play store"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="image-container hide-in-mobile">
+                    <img
+                        src="{{ url_for('static',
+                    filename='images/index-page-sec-one.jpg') }}"
+                        alt="main"
+                    />
+                </div>
+            </div>
+
+            <div class="main-india-one-con">
+                <h2 class="main-heading-small">
+                    India’s No 1 Teaching Platform
+                </h2>
+                <div class="feature-container">
+                    <div class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/Stat_Tutor.svg') }}"
+                            alt="Teachmint"
+                        />
+                        <div class="side2">
+                            <div class="heading">300,000+</div>
+                            <div class="sub-heading main-para-small">
+                                Teachers
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/Stat_Classroom.svg') }}"
+                            alt="Teachmint"
+                        />
+                        <div class="side2">
+                            <div class="heading">350,000+</div>
+                            <div class="sub-heading main-para-small">
+                                Classrooms
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/Stat_Cities.svg') }}"
+                            alt="Teachmint"
+                        />
+                        <div class="side2">
+                            <div class="heading">1100+</div>
+                            <div class="sub-heading main-para-small">
+                                Cities
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="landing-fb-community" style="margin-top: 0">
+                <div class="text-container">
+                    <h2 class="main-heading-small">
+                        Teach and Learn
+                        <br />
+                        Wherever you can
+                    </h2>
+
+                    <div class="image-container show-in-mobile">
+                        <img
+                            src="{{ url_for('static',
+                            filename='images/mockup.jpg') }}"
+                            alt="Join our facebook community"
+                        />
+                    </div>
+
+                    <div class="main-para-large">
+                        Beautiful Business cards give you a professional look
+                        Share them on your WhatsApp Stories
+                    </div>
+
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.teachmint.teachmint&referrer=utm_source%3Dwebsite%26utm_medium%3Dorganic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div class="btn-play">
+                            <img
+                                src="{{ url_for('static',
+                            filename='images/google-play-icon.svg') }}"
+                                alt="facebook"
+                            />
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container hide-in-mobile">
+                    <img
+                        src="{{ url_for('static',
+                    filename='images/mockup.jpg') }}"
+                        alt="main"
+                    />
+                </div>
+            </div>
+
+            <div class="main-featured-con">
+                <h2 class="main-heading-small">Featured In</h2>
+                <div class="feature-container">
+                    <a href="#" class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/EcoTimes.svg') }}"
+                            alt="EconomicTimes"
+                        />
+                    </a>
+                    <a href="#" class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/cnbc.svg') }}"
+                            alt="Cnbc"
+                        />
+                    </a>
+                    <a href="#" class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                            filename='images/BusinessInsider.svg') }}"
+                            alt="Business Insider"
+                        />
+                    </a>
+                    <a href="#" class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/Insider.svg') }}"
+                            alt="Entrepreneur Insider"
+                        />
+                    </a>
+                    <a href="#" class="feature-channel-card">
+                        <img
+                            src="{{ url_for('static',
+                        filename='images/TechAsia.svg') }}"
+                            alt="TechAsia"
+                        />
+                    </a>
+                </div>
+            </div>
+
+            <div class="landing-fb-community">
+                <div class="text-container">
+                    <h2 class="main-heading-small teachmint-color">
+                        Join Our <br />
+                        Facebook Community
+                    </h2>
+
+                    <div class="image-container show-in-mobile">
+                        <img
+                            src="{{ url_for('static',
+                            filename='images/fb-illustration.jpg') }}"
+                            alt="Join our facebook community"
+                        />
+                    </div>
+
+                    <div class="main-para-large">
+                        Beautiful Business cards give you a professional look
+                        Share them on your WhatsApp Stories
+                    </div>
+
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.teachmint.teachmint&referrer=utm_source%3Dwebsite%26utm_medium%3Dorganic"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div class="btn main-para-large">
+                            <img
+                                src="{{ url_for('static',
+                            filename='images/facebook-blue.svg') }}"
+                                alt="facebook"
+                            />
+                            Join Now
+                        </div>
+                    </a>
+                </div>
+                <div class="image-container hide-in-mobile">
+                    <img
+                        src="{{ url_for('static',
+                    filename='images/fb-illustration.jpg') }}"
+                        alt="main"
+                    />
+                </div>
+            </div>
+
+            <footer class="main-footer">
+                <div class="main-footer-inner">
+                    <div class="footer-item-container hide-in-mobile">
+                        <img
+                            class="footer-item-teachmint-logo"
+                            src="{{ url_for('static',
+                            filename='images/teachmint-logo.png') }}"
+                        />
+                    </div>
+                    <div class="footer-item-container">
+                        <div class="footer-text-item-heading">LINKS</div>
+                        <a class="footer-text-item-normal" href="">Home</a>
+                        <a class="footer-text-item-normal" href="">Blog</a>
+                        <a class="footer-text-item-normal" href=""
+                            >Privacy Policy</a
+                        >
+                        <a class="footer-text-item-normal" href=""
+                            >Terms of Service</a
+                        >
+                    </div>
+                    <div class="footer-item-container">
+                        <div class="footer-text-item-heading">CONTACT</div>
+                        <div class="footer-text-item-normal">
+                            Enzyme Tech Park #1604, 1st Floor 25th Main, 22nd
+                            Cross Rd, Sector 2, HSR Layout, Bengaluru, Karnataka
+                            560102
+                        </div>
+                        <div class="footer-text-item-normal">
+                            contact@teachmint.com
+                        </div>
+                        <div class="footer-text-item-normal">+91-981837719</div>
+                    </div>
+                    <div class="footer-item-container">
+                        <div class="footer-text-item-heading">SOCIAL</div>
+                        <a
+                            class="footer-social-btn"
+                            href="https://www.facebook.com/teachmintapp/"
+                            target="_blank"
+                        >
+                            <img
+                                class="footer-social-btn-icon"
+                                src="{{ url_for('static',
+                                filename='images/fb-icon.svg') }}"
+                            />
+                            <div class="footer-social-btn-txt">Facebook</div>
+                        </a>
+                        <a
+                            class="footer-social-btn"
+                            href="https://www.instagram.com/teachmintapp/"
+                            target="_blank"
+                        >
+                            <img
+                                class="footer-social-btn-icon"
+                                src="{{ url_for('static',
+                                filename='images/instagram-icon.svg') }}"
+                            />
+                            <div class="footer-social-btn-txt">Instagram</div>
+                        </a>
+                        <a
+                            class="footer-social-btn"
+                            href="https://twitter.com/teachmintapp"
+                            target="_blank"
+                        >
+                            <img
+                                class="footer-social-btn-icon"
+                                src="{{ url_for('static',
+                                filename='images/twitter-icon.svg') }}"
+                            />
+                            <div class="footer-social-btn-txt">Twitter</div>
+                        </a>
+                        <a
+                            class="footer-social-btn"
+                            href="https://www.linkedin.com/company/teachmint/"
+                            target="_blank"
+                        >
+                            <img
+                                class="footer-social-btn-icon"
+                                src="{{ url_for('static',
+                                filename='images/linked-icon.svg') }}"
+                            />
+                            <div class="footer-social-btn-txt">Linkedin</div>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="{{ url_for('static',
+        filename='js/index.js') }}"></script>
+    </body>
+</html>

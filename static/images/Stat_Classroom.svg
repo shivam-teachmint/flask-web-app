@@ -1,0 +1,39 @@
+<svg id="class" xmlns="http://www.w3.org/2000/svg" width="123" height="99.903" viewBox="0 0 123 99.903">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fad059;
+      }
+
+      .cls-2 {
+        fill: rgba(249,200,70,0.5);
+      }
+
+      .cls-3 {
+        fill: #f9c846;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        opacity: 0;
+        mix-blend-mode: soft-light;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Group_15060" data-name="Group 15060" transform="translate(4.047 60.252)">
+    <ellipse id="Ellipse_441" data-name="Ellipse 441" class="cls-1" cx="7.84" cy="8.18" rx="7.84" ry="8.18" transform="translate(3.716 0)"/>
+    <path id="Path_18660" data-name="Path 18660" class="cls-1" d="M892.99,667.6a11.764,11.764,0,0,0-23.526,0h0v9.414h23.535V667.6Z" transform="translate(-869.46 -637.393)"/>
+    <ellipse id="Ellipse_442" data-name="Ellipse 442" class="cls-1" cx="7.84" cy="8.18" rx="7.84" ry="8.18" transform="translate(34.728 0)"/>
+    <path id="Path_18661" data-name="Path 18661" class="cls-1" d="M962.99,667.6a11.764,11.764,0,0,0-23.526,0h0v9.414h23.535V667.6Z" transform="translate(-908.448 -637.393)"/>
+    <ellipse id="Ellipse_443" data-name="Ellipse 443" class="cls-1" cx="7.84" cy="8.18" rx="7.84" ry="8.18" transform="translate(65.74 0)"/>
+    <path id="Path_18662" data-name="Path 18662" class="cls-1" d="M1032.99,667.6a11.764,11.764,0,0,0-23.526,0h0v9.414h23.535V667.6Z" transform="translate(-947.436 -637.393)"/>
+  </g>
+  <path id="Path_18663" data-name="Path 18663" class="cls-2" d="M884.8,534.265a12.014,12.014,0,0,1,11.827,12.168,12.264,12.264,0,0,1-5.078,9.984h17.515a12.264,12.264,0,0,1-5.078-9.984,11.831,11.831,0,1,1,23.653,0,12.264,12.264,0,0,1-5.078,9.984H940.08A12.264,12.264,0,0,1,935,546.432a12.014,12.014,0,0,1,11.827-12.168,11.669,11.669,0,0,1,8.966,4.246V486.179A8.179,8.179,0,0,0,947.615,478H884.442a8.179,8.179,0,0,0-8.179,8.179v51.85A11.635,11.635,0,0,1,884.8,534.265Z" transform="translate(-869.202 -478)"/>
+  <rect id="Rectangle_19620" data-name="Rectangle 19620" class="cls-3" width="93.653" height="12.264"/>
+  <path id="Path_18664" data-name="Path 18664" class="cls-4" d="M959.866,542.648,941.839,532.24a5.066,5.066,0,0,0-7.6,4.387v20.817a5.066,5.066,0,0,0,7.6,4.387l18.028-10.408A5.067,5.067,0,0,0,959.866,542.648Z" transform="translate(-901.492 -507.828)"/>
+  <rect id="Rectangle_19621" data-name="Rectangle 19621" class="cls-5" width="122.922" height="99.682" transform="translate(0.078 0.222)"/>
+</svg>
